@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "threadNamePrefix",
+    "type": "java.lang.String",
+    "description": "Thread name which will be displayed in logs"
+  },
+  {
+    "name": "queueCapacity",
+    "type": "java.lang.Integer",
+    "description": "max number of threads waiting in queue'"
+  },
+  {
+    "name": "maxThreadPoolSize",
+    "type": "java.lang.Integer",
+    "description": "Max thread pool size"
+  },
+  {
+    "name": "threadPoolSize",
+    "type": "java.lang.Long",
+    "description": "Init thread pool size"
+  },
+  {
+    "name": "restTimeOut",
+    "type": "java.lang.Integer",
+    "description": "Rest client time out for reading and writing"
+  },
+  {
+    "name": "maxDelay",
+    "type": "java.lang.Long",
+    "description": "Delay btw retries"
+  },
+  {
+    "name": "maxAttempts",
+    "type": "java.lang.Integer",
+    "description": "Max num of retries"
+  }
+]}
